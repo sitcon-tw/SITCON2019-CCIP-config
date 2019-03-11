@@ -69,6 +69,12 @@
       "row_name": "個人贊助",
       "value_match": "Y",
       "not_match_disable_message": "For Supporters Only"
-    }
+    },
+    "attr": [
+      {
+        "row_name": "price",
+        "attr_name": "price"
+      }
+    ]
   }
 }
