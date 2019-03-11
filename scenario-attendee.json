@@ -1,0 +1,79 @@
+{
+  "checkin": {
+    "order": 0,
+    "display_text": {
+      "en-US": "Check-in",
+      "zh-TW": "報到"
+    },
+    "available_time": "2019/03/24 8:00 +0800",
+    "expire_time": "2019/03/24 16:00 +0800",
+    "countdown": 0,
+    "related_scenario": [
+      {
+        "id": "kit",
+        "staff_query_used": true,
+        "unlock": true
+      },
+      {
+        "id": "lunch",
+        "disable_time": "2019/03/24 10:00 +0800",
+        "disable_message": "太晚報到囉 owo",
+        "staff_query_disable_message": "請出示您的 QR Code 領取午餐",
+        "unlock": true
+      }
+    ]
+  },
+  "kit": {
+    "order": 1,
+    "display_text": {
+      "en-US": "Welcome Kit",
+      "zh-TW": "迎賓袋"
+    },
+    "available_time": "2019/03/24 8:25 +0800",
+    "expire_time": "2019/03/24 16:00 +0800",
+    "countdown": 45,
+    "lock_message": "你還沒點報到鈕！"
+  },
+  "lunch": {
+    "order": 2,
+    "display_text": {
+      "en-US": "Lunch",
+      "zh-TW": "午餐"
+    },
+    "available_time": "2019/03/24 11:30 +0800",
+    "expire_time": "2019/03/24 15:00 +0800",
+    "countdown": 45,
+    "lock_message": "你還沒點報到鈕！",
+    "attr": [
+      {
+        "row_name": "飲食",
+        "attr_name": "diet",
+        "value": {
+          "素": "vegetarian",
+          "葷": "meat"
+        }
+      }
+    ]
+  },
+  "vipkit": {
+    "order": 3,
+    "display_text": {
+      "en-US": "Special Gift",
+      "zh-TW": "獨家紀念品"
+    },
+    "available_time": "2019/03/24 8:10 +0800",
+    "expire_time": "2019/03/24 16:00 +0800",
+    "countdown": 45,
+    "not_lock_rule": {
+      "row_name": "個人贊助",
+      "value_match": "Y",
+      "not_match_disable_message": "歡迎個人贊助 owo"
+    },
+    "attr": [
+      {
+        "row_name": "price",
+        "attr_name": "price"
+      }
+    ]
+  }
+}
