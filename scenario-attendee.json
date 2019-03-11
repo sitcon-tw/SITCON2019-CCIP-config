@@ -37,8 +37,8 @@
   "lunch": {
     "order": 2,
     "display_text": {
-      "en-US": "Lunch",
-      "zh-TW": "午餐"
+      "en-US": "午餐 好苙™提供",
+      "zh-TW": "午餐 好苙™提供"
     },
     "available_time": "2019/03/24 11:30 +0800",
     "expire_time": "2019/03/24 15:00 +0800",
