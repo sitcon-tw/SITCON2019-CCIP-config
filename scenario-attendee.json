@@ -79,6 +79,10 @@
       {
         "row_name": "price",
         "attr_name": "price"
+      },
+      {
+        "row_name": "shirt_size",
+        "attr_name": "shirt_size"
       }
     ]
   }
