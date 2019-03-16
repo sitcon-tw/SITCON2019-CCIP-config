@@ -1,0 +1,52 @@
+{
+  "checkin": {
+    "order": 0,
+    "display_text": {
+      "en-US": "Check-in",
+      "zh-TW": "報到"
+    },
+    "available_time": "2019/03/24 8:00 +0800",
+    "expire_time": "2019/03/24 16:00 +0800",
+    "countdown": 0,
+    "related_scenario": [
+      {
+        "id": "kit",
+        "staff_query_used": true,
+        "unlock": true
+      }
+    ]
+  },
+  "kit": {
+    "order": 1,
+    "display_text": {
+      "en-US": "Welcome Kit",
+      "zh-TW": "迎賓袋"
+    },
+    "available_time": "2019/03/24 8:25 +0800",
+    "expire_time": "2019/03/24 16:00 +0800",
+    "countdown": 45,
+    "lock_message": "你還沒點報到鈕！"
+  },
+  "lunch": {
+    "order": 2,
+    "display_text": {
+      "en-US": "午餐 好苙™提供",
+      "zh-TW": "午餐 好苙™提供"
+    },
+    "available_time": "2019/03/24 11:30 +0800",
+    "expire_time": "2019/03/24 15:00 +0800",
+    "countdown": 45,
+    "lock_message": "你還沒點報到鈕！",
+    "attr": [
+      {
+        "row_name": "飲食",
+        "attr_name": "diet",
+        "value": {
+          "素": "vegetarian",
+          "葷": "meat"
+        }
+      }
+    ]
+  },
+}
+  
