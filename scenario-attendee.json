@@ -43,7 +43,7 @@
   "lunch": {
     "order": 2,
     "display_text": {
-      "en-US": "午餐 好苙™提供",
+      "en-US": "holistic™ Lunch",
       "zh-TW": "午餐 好苙™提供"
     },
     "available_time": "2019/03/24 11:30 +0800",
@@ -64,16 +64,16 @@
   "vipkit": {
     "order": 3,
     "display_text": {
-      "en-US": "Special Gift",
+      "en-US": "Exclusive Merch",
       "zh-TW": "獨家紀念品"
     },
-    "available_time": "2019/03/24 8:10 +0800",
-    "expire_time": "2019/03/24 16:00 +0800",
+    "available_time": "2019/03/24 11:00 +0800",
+    "expire_time": "2019/03/24 16:30 +0800",
     "countdown": 45,
     "not_lock_rule": {
       "row_name": "個人贊助",
       "value_match": "Y",
-      "not_match_disable_message": "歡迎個人贊助 owo"
+      "not_match_disable_message": "歡迎個人贊助 (ゝ∀･)b "
     },
     "attr": [
       {
